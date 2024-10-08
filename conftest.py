@@ -7,6 +7,7 @@ from src.medidas import Medida
 def medida():
     return Medida(2, 3)
 
+# Calcula e exibe o resultado
 @pytest.fixture
 def resultado():
     medida = Medida(2, 3)
